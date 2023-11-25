@@ -1,0 +1,30 @@
+.li__tech {
+
+    width: 17.9375rem;
+    height: 5.375rem;
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    border-radius: 1.5625rem;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    
+
+}
+
+.li__tech img{
+    width: 1.75rem;
+    height: 2.3125rem;
+    
+}
+
+.li__tech h3{
+    display: inline;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}

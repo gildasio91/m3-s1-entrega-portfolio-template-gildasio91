@@ -1,0 +1,104 @@
+.banner__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+}
+
+.banner__content {
+    width: 100%;
+    max-width: 55.17025rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.banner__info {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.banner__info h3 {
+    color: var(--purple, #6880FF);
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner__info h1 {
+    color: var(--color-white);
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner__info p {
+    color: var(--color-white);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.banner__info button {
+    width: 8.125rem;
+    height: 2.4375rem;
+    border-radius: 0.75rem;
+    border: 1px solid #000;
+    background: var(--color-primary);
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner__info button:hover {
+    border-radius: 0.75rem;
+    border: 1px solid #000;
+    background: #7C91FF;
+    cursor: pointer;
+}
+
+@media (max-width: 426px) {
+    .banner__content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .banner__content img{
+        width: 19.35575rem;
+        height: 11.74525rem;
+       
+    }
+
+    .banner__info h3 {
+        color: var(--purple, #6880FF);
+        font-family: "Poppins", sans-serif;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .banner__info h1 {
+        color: #FFF;
+        font-family: "Inter", sans-serif;
+        font-size: 2.625rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+}

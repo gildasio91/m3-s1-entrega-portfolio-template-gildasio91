@@ -1,0 +1,19 @@
+.ul__tech {
+    width: 56rem;
+height: 11.6875rem;
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+
+@media (max-width: 426px){
+    
+    .ul__tech {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        align-items: center;
+    }
+}

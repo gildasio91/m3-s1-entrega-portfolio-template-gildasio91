@@ -1,0 +1,47 @@
+.tech__container {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.tech__content {
+    width: 100%;
+    max-width: 55.17025rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.tech__content h2 {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.ul__tech {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+@media (max-width: 426px){
+    .tech__container {
+       
+        margin-bottom: 5rem;
+    }
+
+    .tech__content{
+      align-items: center;
+    }
+
+    .ul__tech {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        align-items: center;
+    }
+}

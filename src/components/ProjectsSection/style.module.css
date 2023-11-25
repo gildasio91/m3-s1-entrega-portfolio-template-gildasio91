@@ -1,0 +1,40 @@
+.projects__container {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.projects__content {
+    width: 100%;
+    max-width: 55.17025rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.projects__content h2 {
+    display: inline;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+@media (max-width: 426px) {
+
+    .projects__container {
+        display: flex;
+        padding-top: 7rem;
+
+    }
+
+    .projects__content {
+        align-content: center;
+        align-items: center;
+
+    }
+
+
+}

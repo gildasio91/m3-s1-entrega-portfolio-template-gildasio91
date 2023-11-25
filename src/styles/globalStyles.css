@@ -1,0 +1,23 @@
+:root {
+    --font-primary: "Roboto", sans-serif;
+
+    --color-black: #000;
+    --color-white: #fff;
+
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+
+    --bg-color: #000000;
+
+}
+
+body {
+    width: 100%;
+    background: var(--bg-color);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

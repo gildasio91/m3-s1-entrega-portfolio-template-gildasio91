@@ -1,0 +1,17 @@
+.ul__projects {
+    width: 56rem;
+    height: 24.0625rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media (max-width: 426px) {
+    .ul__projects {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+      
+
+    }
+}
